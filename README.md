@@ -1,17 +1,30 @@
-# Data Science Projects
+# Data Science
 
-Colección de proyectos de ciencia de datos. Cada proyecto explora una técnica o idea diferente, implementada en Jupyter Notebooks.
+**Repositorio de proyectos de ciencia de datos. Cada carpeta es un proyecto independiente con su propia documentación — desde encriptación visual de datos hasta forecasting sin modelos de Machine Learning.**
 
 ---
 
 ## Proyectos
 
-### 1. CSV → Imagen (`csv_transform.ipynb`)
+| Carpeta | Tema | Descripción |
+|---------|------|-------------|
+| [`CSV_TRANSFORM/`](CSV_TRANSFORM/) | Encriptación visual | Codifica DataFrames como imágenes PNG con doble factor de encriptación por semillas. |
+| [`Series_de_Tiempo/`](Series_de_Tiempo/) | Forecasting particionado | Predicción de series de tiempo mediante regresión logarítmica sobre particiones cíclicas, sin ML. |
 
-**Idea principal:** Codificar el contenido de un DataFrame (o archivo CSV) como una imagen, donde cada píxel representa un carácter y su color está determinado por un diccionario de asignación.
+Cada proyecto tiene su propio `README.md` con documentación detallada.
 
+---
+
+## Estructura
 
 ```
 Data_Science/
-└── csv_transform.ipynb   # Proyecto 1: CSV → Imagen
+├── README.md
+├── CSV_TRANSFORM/
+│   ├── README.md
+│   └── csv_transform.ipynb
+└── Series_de_Tiempo/
+    ├── README.md
+    ├── Predicccion_Series_de_Tiempo_Particionadas.ipynb
+    └── Ventas_Company_H.csv
 ```
